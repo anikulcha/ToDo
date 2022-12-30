@@ -20,7 +20,6 @@ function createElement (tag, props, ...children){
     }
     return element;
 }
-document.querySelector('h1').textContent = 'хуй.js';
 const todoForm = document.getElementById('todo-form');
 const addInput = document.getElementById('add-input');
 const todoList = document.getElementById('todo-list');
